@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Blog JalaSoft</title>
+</head>
+<body>
+    <h1>Jala-Blog</h1>
+    <div class="filters">
+        <input id="filter" class="filter" type="text" placeholder="filter post">
+    </div>
+    <div id="post-container">
+        <!--Mientras el estilo-->
+        <!--<div class="post">
+            <div class="date-container">
+                <p>
+                    <span id="date-post">2021-04-11</span>
+                    by
+                    <span id="writer-post">Linus Torvalds</span>
+                </p>
+            </div>
+            <div class="post-info">
+                <h2 class="post-title">Post 1</h2>
+                <p class="post-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, voluptatem. Similique provident, 
+                    quidem tempora voluptatibus molestiae, rem nemo fugit illum necessitatibus animi 
+                    voluptatum recusandae libero rerum atque explicabo. Vel, velit!
+                </p>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="post">
+        <div class="date-container">
+            <p>
+                <span id="date-post">2021-05-15</span>
+                by
+                <span id="writer-post">Richard Feyman</span>
+            </p>
+        </div>
+        <div class="post-info">
+            <h2 class="post-title">Post 2</h2>
+            <p class="post-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, voluptatem. Similique provident, 
+                quidem tempora voluptatibus molestiae, rem nemo fugit illum necessitatibus animi 
+                voluptatum recusandae libero rerum atque explicabo. Vel, velit!
+            </p>
+        </div>-->
+        
+    </div>
+    <button class="submitPost">Create a Post</button>
+    <div class="newpost">
+        <form class="postwr">
+            <div class="date-newpost">
+                    <input id="npost-date" type="text" placeholder="date of post (yy/mm/dd)">
+            </div>
+            <div class="post-info">
+                <input id="npost-title" type="text" placeholder="Title of your post">
+                <input id="npost-body" type="text" placeholder="write something">
+            </div>
+        </form>
+        <input id="submit" type="submit" placeholder="send">
+    </div>
+
+    <script src="script.js"></script>
+</div>
+</body>
+</html>
